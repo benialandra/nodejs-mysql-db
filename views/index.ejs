@@ -25,6 +25,7 @@
                     <th scope="col">nama</th>
                     <th scope="col">kelas</th>
                     <th scope="col">status</th>
+                    <th scope="col">edit</th>
                 </tr>
             </thead>
             <tbody>
@@ -41,6 +42,11 @@
                         </th>
                         <th scope="row">
                             <%= user.status%>
+                        </th>
+                        <th scope="row">
+                            <button >
+                                <%= user.status%>
+                            </button>
                         </th>
                     </tr>
                     <% } %>
